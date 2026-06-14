@@ -1,6 +1,7 @@
 import { Great_Vibes, Cormorant_Garamond, Jost } from "next/font/google";
 import "./globals.css";
 import { evento } from "./data";
+import MusicPlayer from "./MusicPlayer";
 
 const script = Great_Vibes({
   weight: "400",
@@ -39,6 +40,7 @@ export default function RootLayout({ children }) {
     <html lang="es">
       <body className={`${script.variable} ${serif.variable} ${sans.variable}`}>
         {children}
+        <MusicPlayer />
       </body>
     </html>
   );

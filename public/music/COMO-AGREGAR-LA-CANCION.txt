@@ -1,0 +1,17 @@
+CÓMO AGREGAR LA MÚSICA ("Fifteen" - Taylor Swift)
+==================================================
+
+La página ya tiene el reproductor listo. Solo falta el archivo de audio.
+
+1) Conseguí el archivo de la canción en formato MP3.
+2) Renombralo EXACTAMENTE así:   fifteen.mp3
+3) Copialo dentro de esta misma carpeta:   public/music/fifteen.mp3
+4) Subí el cambio:  git add . && git commit -m "Agrego música" && git push
+
+Listo: Vercel redeploya solo y la canción empieza a sonar.
+
+Notas:
+- El archivo NO viene incluido por ser una canción con derechos de autor.
+- Si tu archivo está en otro formato (.m4a, .ogg), igual sirve: cambialo a
+  fifteen.mp3 o avisá para ajustar la extensión en app/MusicPlayer.js.
+- Podés borrar este .txt cuando ya tengas la canción.
